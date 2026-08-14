@@ -1,0 +1,13 @@
+/**
+ * Copy this folder to themes/<your-theme-id>/ and replace token values.
+ * Selector MUST match your theme id in theme.json.
+ */
+[data-ergo-theme-pack='your-theme-id'] {
+  --theme-surface: #f2e9db;
+  --theme-surface-raised: #f8f4ec;
+  --theme-text: #2b2923;
+  --theme-text-muted: #59564a;
+  --theme-accent: #ff8a00;
+  --theme-accent-text: #171a18;
+  --theme-border: #c9c2a7;
+}

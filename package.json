@@ -1,0 +1,32 @@
+{
+  "name": "@twobitedd/ergo-games-themes",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Community theme packs for ERGO.games — semantic tokens with WCAG AA contrast pairs.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twobitENT/ergo-games-themes"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./registry.json": "./themes/registry.json",
+    "./themes/*": "./themes/*/*.css",
+    "./themes.css": "./themes/index.css"
+  },
+  "files": [
+    "src",
+    "themes",
+    "scripts",
+    "README.md",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate-contrast.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

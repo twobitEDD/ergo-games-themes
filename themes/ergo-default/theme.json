@@ -1,0 +1,23 @@
+{
+  "id": "ergo-default",
+  "name": "ERGO Default (light console)",
+  "version": "1.0.0",
+  "author": "twobitENT",
+  "license": "MIT",
+  "description": "Owner-approved paper + graphite ink for solo-first console chrome.",
+  "slots": ["light"],
+  "tokens": {
+    "surface": "#f2e9db",
+    "surfaceRaised": "#f8f4ec",
+    "text": "#2b2923",
+    "textMuted": "#59564a",
+    "accent": "#ff8a00",
+    "accentText": "#171a18",
+    "border": "#c9c2a7"
+  },
+  "contrastPairs": [
+    { "foreground": "text", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "textMuted", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "accentText", "background": "accent", "minRatio": 4.5 }
+  ]
+}

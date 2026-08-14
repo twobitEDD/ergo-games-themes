@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "themes": [
+    {
+      "id": "ergo-default",
+      "manifest": "ergo-default/theme.json",
+      "css": "ergo-default/theme.css"
+    },
+    {
+      "id": "ergo-dark",
+      "manifest": "ergo-dark/theme.json",
+      "css": "ergo-dark/theme.css"
+    },
+    {
+      "id": "ergo-paper-device",
+      "manifest": "ergo-paper-device/theme.json",
+      "css": "ergo-paper-device/theme.css"
+    }
+  ]
+}

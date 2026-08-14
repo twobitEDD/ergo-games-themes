@@ -1,0 +1,23 @@
+{
+  "id": "ergo-dark",
+  "name": "ERGO Dark console",
+  "version": "1.0.0",
+  "author": "twobitENT",
+  "license": "MIT",
+  "description": "Graphite ambient with paper ink — matches data-ergo-theme=dark semantics.",
+  "slots": ["dark"],
+  "tokens": {
+    "surface": "#2b2923",
+    "surfaceRaised": "#35322c",
+    "text": "#f2e9db",
+    "textMuted": "#c9c2a7",
+    "accent": "#ff8a00",
+    "accentText": "#171a18",
+    "border": "#59564a"
+  },
+  "contrastPairs": [
+    { "foreground": "text", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "textMuted", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "accentText", "background": "accent", "minRatio": 4.5 }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ergo-paper-device",
+  "name": "ERGO Paper device screen",
+  "version": "1.0.0",
+  "author": "twobitENT",
+  "license": "MIT",
+  "description": "Fixed dark-on-paper inside the device screen inset — independent of global dark theme.",
+  "slots": ["paper-device"],
+  "tokens": {
+    "surface": "#f5f0e6",
+    "surfaceRaised": "#faf7f0",
+    "text": "#171a18",
+    "textMuted": "#656b66",
+    "accent": "#ff8a00",
+    "accentText": "#171a18",
+    "border": "#c9c2a7"
+  },
+  "contrastPairs": [
+    { "foreground": "text", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "textMuted", "background": "surface", "minRatio": 4.5 },
+    { "foreground": "accentText", "background": "accent", "minRatio": 4.5 }
+  ]
+}

@@ -1,0 +1,13 @@
+/**
+ * ERGO Default — light console paint.
+ * Activated with [data-ergo-theme-pack="ergo-default"] on <html> or a scoped container.
+ */
+[data-ergo-theme-pack='ergo-default'] {
+  --theme-surface: #f2e9db;
+  --theme-surface-raised: #f8f4ec;
+  --theme-text: #2b2923;
+  --theme-text-muted: #59564a;
+  --theme-accent: #ff8a00;
+  --theme-accent-text: #171a18;
+  --theme-border: #c9c2a7;
+}

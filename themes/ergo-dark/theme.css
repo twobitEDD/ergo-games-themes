@@ -1,0 +1,12 @@
+/**
+ * ERGO Dark — charcoal console paint.
+ */
+[data-ergo-theme-pack='ergo-dark'] {
+  --theme-surface: #2b2923;
+  --theme-surface-raised: #35322c;
+  --theme-text: #f2e9db;
+  --theme-text-muted: #c9c2a7;
+  --theme-accent: #ff8a00;
+  --theme-accent-text: #171a18;
+  --theme-border: #59564a;
+}

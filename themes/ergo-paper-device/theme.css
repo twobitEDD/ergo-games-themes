@@ -1,0 +1,13 @@
+/**
+ * ERGO Paper device — screen inset slot (data-device-theme or data-ergo-surface=paper).
+ */
+[data-ergo-theme-pack='ergo-paper-device'],
+[data-ergo-surface='paper'] {
+  --theme-surface: #f5f0e6;
+  --theme-surface-raised: #faf7f0;
+  --theme-text: #171a18;
+  --theme-text-muted: #656b66;
+  --theme-accent: #ff8a00;
+  --theme-accent-text: #171a18;
+  --theme-border: #c9c2a7;
+}
